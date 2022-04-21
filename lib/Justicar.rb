@@ -54,10 +54,8 @@ class Justicar
         FileUtils.mkdir target_dir
       end
       hash.each do |key, val|
-        puts "key: #{key}, val: #{val}"
         if val.is_a? String
           file_name, type, _rb = key.to_s.split('.')
-          puts "filename: #{file_name}, type: #{type}"
           File.open("#{target_dir}/#{file_name}.#{type}", "w") do |file|
             file.write(val)
           end
@@ -68,7 +66,6 @@ class Justicar
           self.build("#{target_dir}/#{key}", hash)
         end
       end
-      puts File.expand_path(File.dirname(__FILE__))
     end
 
     def output

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="182.11775mm"
+   height="189.93123mm"
+   viewBox="0 0 182.11775 189.93123"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="justicar_logo.svg"
+   inkscape:export-filename="/home/tradam/Documents/Web/Justicar/template/public/justicar.png"
+   inkscape:export-xdpi="117.48518"
+   inkscape:export-ydpi="117.48518"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     inkscape:zoom="0.42142195"
+     inkscape:cx="84.109991"
+     inkscape:cy="149.56628"
+     inkscape:window-width="1568"
+     inkscape:window-height="843"
+     inkscape:window-x="15"
+     inkscape:window-y="15"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2333">
+    <sodipodi:guide
+       position="242.77745,198.05037"
+       orientation="-1,0"
+       id="guide1300"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.7828,-21.434772)">
+    <g
+       id="g2333">
+      <path
+         id="path1066"
+         style="fill:#808080;fill-rule:evenodd;stroke-width:1.10189;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.0848444e-06"
+         inkscape:transform-center-y="28.321906"
+         d="M 411.37109,135.91992 V 761.06836 C 606.1776,761.06406 717.73438,118.80859 717.73438,118.80859 Z"
+         transform="scale(0.26458333)" />
+      <path
+         id="path2804"
+         style="fill:#666666;fill-rule:evenodd;stroke-width:1.10189;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.0848444e-06"
+         inkscape:transform-center-y="28.321906"
+         d="m 105.00586,118.80859 c 0,0 111.55556,642.25977 306.36328,642.25977 6.5e-4,0 10e-4,0 0.002,0 V 135.91992 Z"
+         transform="scale(0.26458333)" />
+      <path
+         id="path1708"
+         style="fill:#b3b3b3;fill-rule:evenodd;stroke-width:0.976237;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.6645834e-06"
+         inkscape:transform-center-y="25.63317"
+         d="M 411.37109,184.33789 145.66797,147.22266 c 0,0 96.74938,581.28906 265.70117,581.28906 6.5e-4,0 10e-4,0 0.002,0 z"
+         transform="scale(0.26458333)" />
+      <path
+         id="path2568"
+         style="fill:#cccccc;fill-rule:evenodd;stroke-width:0.976237;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.6645834e-06"
+         inkscape:transform-center-y="25.63317"
+         d="m 411.37109,184.33789 v 544.17383 c 168.95059,-0.004 265.70118,-581.28906 265.70118,-581.28906 z"
+         transform="scale(0.26458333)" />
+      <path
+         id="path1923"
+         style="fill:#aa0000;fill-rule:evenodd;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.3712378e-06"
+         inkscape:transform-center-y="8.7207673"
+         d="M 411.37109,357.38281 297.19336,321.3418 411.37109,519.10352 Z"
+         transform="scale(0.26458333)" />
+      <path
+         id="path3217"
+         style="fill:#d40000;fill-rule:evenodd;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.3712378e-06"
+         inkscape:transform-center-y="8.7207673"
+         d="M 411.37109,285.30078 297.19336,321.3418 411.37109,357.38281 Z"
+         transform="scale(0.26458333)" />
+      <path
+         id="path2686"
+         style="fill:#ff0000;fill-rule:evenodd;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.3712378e-06"
+         inkscape:transform-center-y="8.7207673"
+         d="M 525.54883,321.3418 411.37109,357.38281 V 519.10352 Z"
+         transform="scale(0.26458333)" />
+      <path
+         id="path3220"
+         style="fill:#ff2a2a;fill-rule:evenodd;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="1.3712378e-06"
+         inkscape:transform-center-y="8.7207673"
+         d="m 411.37109,285.30078 v 72.08203 L 525.54883,321.3418 Z"
+         transform="scale(0.26458333)" />
+    </g>
+  </g>
+</svg>
