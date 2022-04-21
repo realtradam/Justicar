@@ -1,4 +1,4 @@
- ![Justicar](https://github.com/realtradam/Justicar/blob/master/template/public/justicar.png?raw=true)
+ <img src="https://github.com/realtradam/Justicar/blob/master/template/public/justicar.png?raw=true" height="280" alt="Justicar"/>
 
 # Justicar
 
