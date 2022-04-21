@@ -1,0 +1,26 @@
+#!/bin/ruby
+
+require 'fileutils'
+
+template_path = File.expand_path(File.dirname(__FILE__) + '/../template')
+
+def help
+	puts 'Pass a path as an argument to generate a new project'
+end
+
+if ARGV.length == 0 || ARGV.first.chars.first == '-'
+  help
+elsif ARGV.length == 1
+	begin
+      if ARGV.first.chars.first == '/'
+        FileUtils.copy_entry(template_path, ARGV.first)
+      else
+        FileUtils.copy_entry(template_path, "#{Dir.pwd}/#{ARGV.first}")
+      end
+      puts "Project generated"
+    rescue
+      help
+    end
+else
+  help
+end
