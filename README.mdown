@@ -21,9 +21,17 @@ Using the CLI:
 $ justicar my_project # <- this generates a new project
 $ cd my_project
 $ bundle install # <- installs dependencies
-$ rake build # <- generates the website
-$ rake serve # <- locally host the project
+$ bundle exec rake build # <- generates the website
+$ bundle exec rake serve # <- locally host the project
 ```
+
+To deploy using something like [Cloudflare Pages](https://pages.cloudflare.com) use this as the build command:
+
+```
+bundle install && bundle exec rake build
+```
+
+And set the build output directory to `build`
 
 ### How it works when your run `rake serve`:
 
