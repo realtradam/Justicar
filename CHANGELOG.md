@@ -1,3 +1,6 @@
+## [1.0.1] - 2022-04-22
+- Updated the template's Gemfile
+
 ## [1.0.0] - 2022-04-22
 - Added processing feature
 - Updated template to showcase processing
