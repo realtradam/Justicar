@@ -27,7 +27,7 @@ $ rake serve # <- locally host the project
 
 ### How it works when your run `rake serve`:
 
-1. Preproces special files in Source Dir
+1. Preprocess special files in Source Dir
 2. Process remaining files in Source Dir
 3. Copy Public Dir to Build Dir
 4. Write the Source Hash into Build Dir
