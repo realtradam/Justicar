@@ -5,7 +5,7 @@ Paggio.css do
 
   rule '.justicar' do
     top 134.px
-    left 360.px
+    left 400.px
     opacity 0.7
     position 'absolute'
     width 400.px
@@ -18,6 +18,11 @@ Paggio.css do
 
   rule '.paggio' do
     color :goldenrod
+  end
+
+  rule '.articles' do
+    color :limegreen
+    max width: 400.px
   end
 
   rule 'h1' do

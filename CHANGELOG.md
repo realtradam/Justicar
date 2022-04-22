@@ -1,4 +1,6 @@
-## [Unreleased]
+## [1.0.0] - 2022-04-22
+- Added processing feature
+- Updated template to showcase processing
 
 ## [0.1.1] - 2022-04-21
 

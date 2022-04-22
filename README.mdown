@@ -25,25 +25,28 @@ $ rake build # <- generates the website
 $ rake serve # <- locally host the project
 ```
 
-### How it works:
+### How it works when your run `rake serve`:
 
-#### Source Dir:
+1. Preproces special files in Source Dir
+2. Process remaining files in Source Dir
+3. Copy Public Dir to Build Dir
+4. Write the Source Hash into Build Dir
+	- Note this can cause the Source Hash to overwrite files copied from the Public Dir
 
-HTML and CSS gets compiled using Paggio while Js gets compiled using Opal.
+### File types
 
-#### Public Dir:
+##### `.html.rb, .css.rb`
+These files are executed and the resulting string gets saved in a file using its respective relative path as well as using its filename(sans the `.rb`) as the resulting file's name
 
-This is where static non-generated files go such as Images.
+##### `.js.rb`
+These files get read and passed into the Opal parser to generate the resulting javascript. This gets saved in a file similiarly as `html.rb` files.
 
-#### Build Dir:
+##### `.pre.rb`
+These are files that are executed before the file generation phase but do not get written anywhere. Here you should create a proc and store it in `Justicar::PreProcessor` (see sample project for an example). These are files generally used for templates or articles where you want a table of contents.
 
-Build is where your generated site gets exported to.
+##### `.post.rb`
+These are files that are executed during the file generation phase but do not themselves get written anywhere. These files are generally used for programmatically generating multiple files (such as creating a bunch of article pages stored in the preprocessor). See sample project for an example.
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 

@@ -2,7 +2,7 @@ Paggio.html do
   script type: "text/javascript", src: "script.js"
   link rel: "stylesheet", href: "style.css"
   link rel: 'icon', type: 'image/x-icon', href: 'favicon.ico'
-  img.justicar(src: 'justicar.png', alt: 'Justicar', height: '400px')
+  img.justicar(src: '/justicar.png', alt: 'Justicar', height: '400px')
   h1 { "Hello world from Justicar" }
   hr
   h2.paggio do

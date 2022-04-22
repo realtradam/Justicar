@@ -3,8 +3,9 @@ require 'opal-browser'
 
 desc "Build your website"
 task :build do
+  Justicar.load_preprocessors('src')
   Justicar.build_source('src')
-  Justicar.build('build', 'public')
+  Justicar.build_initialize('build', 'public')
 end
 
 desc "Create a server and open your site in your browser"
